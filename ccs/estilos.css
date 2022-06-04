@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 250px;
+ 
+    }
+
+    .fotonovia{
+        width: 100%;
+
+    }
+
+    
+
+    .imagen-contenedor-modelo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+    
+    }
+        
+  .img-modelo{
+      margin-left: 25%;
+
+  }
+
+ 
+h2{
+    color: royalblue;
+    font-size: 30px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+
+}
+
+p{
+    color:indigo;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+
+.infobata{
+    color: indigo;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align:justify;
+    margin-left: 2rem;
+    margin-inline-end: 2rem;
+}
+
+
+nav{
+    background-color:orchid;
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.link{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+ul{
+     text-align:center;
+}
+
+
+
+.main__info{
+    color:indigo;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-inline-end: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color:indigo;
+}
+
+.galeria__Fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 1rem;
+    
+   
+     
+ }
+
+.galeria{
+    width: 20rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline;
+
+}
+
+footer{
+    background-color:orchid;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   
+   
+}
+
+.preguntas{
+    color:royalblue;
+    font-size: 20px;
+    font-family: 'Roboto Flex', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    
+    
+}
+
+.respuesta{
+    color:indigo;
+    margin-left: 2rm;
+    margin-inline-end: 2rem
+  
+}
+
+.footer{
+   display:inline;
+}
+
+.imgfooter{
+       width: 6rem;
+    }
+    .imgfb{
+        width: 3rem;
+    }
+.imgwhat{
+       width: 3rem;
+       margin-left: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+    .galeria__Fotos{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 2rem;     
+   } 
+   
+.imagen-contenedor-modelo{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+}
+
+.link{
+    display:flex ;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+
+}
