@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +32,7 @@
     <p class="infobata">
         Te mostramos algunos de nuestros trabajos realizados 
      </p>
-        <main class="galeria__Fotos">
+        <main class="galeria__Fotos" data-aos="zoom-in">
        <div>
         <img class="galeria" src="../assets/foto1.jpeg" alt="modelos">
       </div>
@@ -75,6 +77,8 @@
 
     </footer>
 
-
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
