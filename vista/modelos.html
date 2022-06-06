@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +32,7 @@
     <p class="infobata">
         Conoce nuestros modelos de Batas</p>
     <br>
-    <main class="imagen-contenedor-modelo" >
+    <main class="imagen-contenedor-modelo" data-aos="zoom-in" >
     <div>
         <h2>Modelo Gala</h2>
         <img class="img-modelo" src="../assets/GALA.jpeg" alt="modelo gala" width="250px">
@@ -54,7 +56,9 @@
         <li class="footer" ><a href="https://api.whatsapp.com/send?phone=+5491150403679&text= Hola quisiera Informacion de las Batas personalizadas."target="_blank"><img class="imgwhat" src="../assets/001-whatsapp.png"></a>
 
     </footer>
-
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
