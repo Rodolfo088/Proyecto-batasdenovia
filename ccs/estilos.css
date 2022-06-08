@@ -5,7 +5,7 @@
 
 header{
     text-align: center;
-}
+   }
 
 .logo{
     width: 250px;
@@ -17,7 +17,9 @@ header{
 
     }
 
-    
+    .formulario{
+        text-align: center;
+    }
 
     .imagen-contenedor-modelo{
         display: grid;
@@ -113,13 +115,24 @@ a{
 
 }
 
-footer{
-    background-color:orchid;
-    text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-   
-   
+.site-footer{
+    height: 100px;
+}
+
+
+.iconos a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+  
+}
+
+.iconos a i:hover {
+    color: orchid;
+    transform: scale(1.1);
+    transition: ease-in-out .1s;
+
 }
 
 .preguntas{
@@ -139,20 +152,7 @@ footer{
   
 }
 
-.footer{
-   display:inline;
-}
 
-.imgfooter{
-       width: 6rem;
-    }
-    .imgfb{
-        width: 3rem;
-    }
-.imgwhat{
-       width: 3rem;
-       margin-left: 1.5rem;
-}
 
 
 
