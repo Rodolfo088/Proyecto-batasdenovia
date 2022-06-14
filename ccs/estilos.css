@@ -18,7 +18,8 @@ header{
     }
 
     .formulario{
-        text-align: center;
+        text-align:center;
+        
     }
 
     .imagen-contenedor-modelo{
@@ -67,6 +68,11 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 
+}
+
+.nav-link{
+    justify-content: center;
+    text-align: center;
 }
 
 
