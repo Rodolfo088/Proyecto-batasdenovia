@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .formulario {
   text-align: center;
   font-family: 'Roboto Flex', sans-serif;
@@ -20,12 +21,15 @@
 header {
   text-align: center; }
 
+/*tamaño logo*/
 .logo {
   width: 250px; }
 
+/*tamaño foto*/
 .fotonovia {
   width: 100%; }
 
+/*fomrato muestra de imagenes galeria*/
 .imagen-contenedor-modelo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -34,6 +38,19 @@ header {
 .img-modelo {
   margin-left: 25%; }
 
+.galeria__Fotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px; }
+
+.galeria {
+  width: 20rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline; }
+
+/*estilo de texto*/
 h2 {
   color: royalblue;
   font-size: 30px;
@@ -46,6 +63,13 @@ p {
   font-family: 'Roboto Flex', sans-serif;
   text-align: center; }
 
+ul {
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: indigo; }
+
 .infobata {
   color: indigo;
   font-size: 20px;
@@ -54,6 +78,7 @@ p {
   margin-left: 2rem;
   margin-inline-end: 2rem; }
 
+/*estilo de navegador*/
 nav {
   background-color: orchid;
   display: flex;
@@ -70,25 +95,7 @@ nav {
   display: inline;
   margin: 0 10px; }
 
-ul {
-  text-align: center; }
-
-a {
-  text-decoration: none;
-  color: indigo; }
-
-.galeria__Fotos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 10px; }
-
-.galeria {
-  width: 20rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: inline; }
-
+/*estilo de footer*/
 .site-footer {
   height: 100px; }
 
@@ -103,6 +110,7 @@ a {
   transform: scale(1.1);
   transition: ease-in-out .1s; }
 
+/*estilo de seccion preguntas*/
 .preguntas {
   color: royalblue;
   font-size: 20px;
@@ -118,6 +126,7 @@ a {
   margin-left: 2rm;
   margin-inline-end: 2rem; }
 
+/*responsive*/
 @media screen and (max-width: 1200px) {
   .galeria__Fotos {
     display: grid;
