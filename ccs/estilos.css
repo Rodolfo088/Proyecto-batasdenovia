@@ -117,10 +117,8 @@ header {
 .imagen-contenedor-modelo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-content: center; }
-
-.img-modelo {
-  margin-left: 25%; }
+  align-content: center;
+  text-align: center; }
 
 .galeria__Fotos {
   display: grid;
