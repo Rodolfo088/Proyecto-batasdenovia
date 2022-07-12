@@ -103,6 +103,16 @@ header {
 .fotonovia {
   width: 100%; }
 
+/*Boton de compra*/
+.compra button {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 0;
+  padding: .2em;
+  color: white;
+  font-size: 17px;
+  font-family: 'Roboto Flex', sans-serif; }
+
 /*fomrato muestra de imagenes galeria*/
 .imagen-contenedor-modelo {
   display: grid;
